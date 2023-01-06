@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* sections padding */
+section#about, section#projects{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+/* background image home */
+.bgimage {
+    background-image: url('/images/hero_smaller_test.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.home-title {
+    font-size: 4rem;
+    text-align: center;
+}
+.home-desc {
+    font-size : 1.5rem;
+}
+.home-text {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* p sections */
+.headers {
+  font-size : 3rem;
+}
+
+.about {
+  font-size: 1.5rem;
+}
+
+.projects {
+  font-size: 1.5rem;
+}
+
+/* hyperlinks actions */
+a.about:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.about:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.about:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+a.about:active {
+  color: black;
+  background-color: green;
+  text-decoration: underline;
+}
+
+/* contact list */
+ul.contact li {
+  list-style: none;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
